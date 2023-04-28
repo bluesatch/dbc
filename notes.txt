@@ -1,0 +1,13 @@
+next.js uses a pages directory for all pages. simply create a js file in the pages directory and the path becomes a url path
+
+Linking pages 
+import Link from 'next/Link'
+<Link> allows client-side navigation and accepts props that gives better control over the navigation behavior 
+
+Note: If you need to link to an external page outside the Next.js app, just use an <a> tag without Link.
+
+static assets go in the public directory
+
+next/image is an extension of the HTML <img> element. Next.js has support for Image Opitimization by default. allows for resizing, optimizing, and serving images
+
+In addition to metadata, scripts that need to load and execute as soon as possible are usually added withing the <head> of a page.

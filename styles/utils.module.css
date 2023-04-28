@@ -1,0 +1,103 @@
+
+
+.header {
+    padding-block: 100px;
+}
+
+.profilePic {
+    width: auto;
+    height: auto;
+}
+
+.headerName {
+    color: #005a9c;
+    font-size: calc(32px + (48 - 32) * ((100vw - 300px) / (1600 - 300)));
+    text-shadow: 2px 2px 2px #ccc;
+}
+
+.brandingText {
+    font-size: calc(22px + (32 - 22) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.website {
+    font-size: calc(18px + (22 - 18) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.smallText {
+    font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.githubText {
+    margin: 40px 0;
+    font-size: calc(18px + (22 - 18) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.githubio {
+    color: #005a9c;
+}
+
+.githubio:hover {
+    color: #f00;
+}
+
+.topNavItem {
+    margin: 0 30px;
+    padding: 5px;
+    width: 20%;
+    background-color: #005a9c;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+}
+
+.topNavItem:hover {
+    background-color: #052a44;
+    background-color: #f00;
+}
+
+.topNavLink {
+    color: #fefefe;
+}
+
+.topNavLink:hover {
+    color: #ddd;
+}
+
+.main {
+    padding-block: 10px;
+}
+
+.mainH2 {
+    margin: 20px 0;
+    color: #f00;
+    font-size: calc(32px + (48 - 32) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.mainText, .mainListItem {
+    font-size: calc(22px + (32 - 22) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.codingLink {
+    color: #005a9c;
+}
+
+.mainListItemSub {
+    font-size: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.footer {
+    padding-block: 40px;
+    color: #fefefe;
+    background-color: #005a9c;
+}
+
+.bottomNavLink {
+    color: #fefefe;
+}
+
+.bottomNavLink:hover {
+    color: #f00;
+}
+
+.bottomFooter {
+    padding-block: 20px;
+}
