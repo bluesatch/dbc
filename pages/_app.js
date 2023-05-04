@@ -1,10 +1,10 @@
-import { OpenSans } from 'next/font/google'
+import { Open_Sans } from 'next/font/google'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '../styles/globals.css'
 import { useEffect } from 'react'
 
 
-const openSans = OpenSans({
+const openSans = Open_Sans({
     weight: ['400', '600'],
     style: ['normal', 'italic'],
     subsets: ['latin']
